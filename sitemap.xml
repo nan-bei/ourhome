@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nan-bei.github.io/ourhome/</loc>
+    <loc>http://localhost:1313/ourhome/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nan-bei.github.io/ourhome/categories/</loc>
+    <loc>http://localhost:1313/ourhome/categories/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nan-bei.github.io/ourhome/post/</loc>
+    <loc>http://localhost:1313/ourhome/post/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nan-bei.github.io/ourhome/categories/%E6%97%85%E8%A1%8C/</loc>
+    <loc>http://localhost:1313/ourhome/categories/%E6%97%85%E8%A1%8C/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nan-bei.github.io/ourhome/p/test-chinese/</loc>
+    <loc>http://localhost:1313/ourhome/p/test-chinese/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nan-bei.github.io/ourhome/page/</loc>
+    <loc>http://localhost:1313/ourhome/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nan-bei.github.io/ourhome/archives/</loc>
+    <loc>http://localhost:1313/ourhome/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nan-bei.github.io/ourhome/tags/</loc>
+    <loc>http://localhost:1313/ourhome/tags/</loc>
   </url><url>
-    <loc>https://nan-bei.github.io/ourhome/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>http://localhost:1313/ourhome/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
-    <loc>https://nan-bei.github.io/ourhome/search/</loc>
+    <loc>http://localhost:1313/ourhome/search/</loc>
   </url><url>
-    <loc>https://nan-bei.github.io/ourhome/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
+    <loc>http://localhost:1313/ourhome/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
   </url>
 </urlset>

@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on 我们的小家</title>
-        <link>https://nan-bei.github.io/ourhome/page/</link>
+        <link>http://localhost:1313/ourhome/page/</link>
         <description>Recent content in Pages on 我们的小家</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>CZL &amp; ZJY</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://nan-bei.github.io/ourhome/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ourhome/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
-        <link>https://nan-bei.github.io/ourhome/archives/</link>
+        <link>http://localhost:1313/ourhome/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://nan-bei.github.io/ourhome/archives/</guid>
+        <guid>http://localhost:1313/ourhome/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://nan-bei.github.io/ourhome/%E5%85%B3%E4%BA%8E/</link>
+        <link>http://localhost:1313/ourhome/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://nan-bei.github.io/ourhome/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>http://localhost:1313/ourhome/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://nan-bei.github.io/ourhome/search/</link>
+        <link>http://localhost:1313/ourhome/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://nan-bei.github.io/ourhome/search/</guid>
+        <guid>http://localhost:1313/ourhome/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友情链接</title>
-        <link>https://nan-bei.github.io/ourhome/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
+        <link>http://localhost:1313/ourhome/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://nan-bei.github.io/ourhome/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
+        <guid>http://localhost:1313/ourhome/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
         <description></description>
         </item>
         

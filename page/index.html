@@ -277,7 +277,85 @@
                 </div>
             
         </div>
-    </section>
+    </section><style>
+     
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+    :root {
+        --counter-color: #333;  
+        --counter-font-size: 2.25rem;  
+        --counter-padding: 15px 22px;  
+        --counter-radius: 12px;  
+        --counter-opacity: 0.8;  
+        --box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  
+    }
+
+     
+    .days-together {
+        position: fixed;  
+        right: 5%;  
+        bottom: 5%;  
+        background-color: rgba(255, 255, 255, var(--counter-opacity));  
+        color: var(--counter-color);  
+        font-size: var(--counter-font-size);  
+        font-family: 'Playfair Display', serif;  
+        padding: var(--counter-padding);
+        border-radius: var(--counter-radius);  
+        text-align: center;
+        z-index: 9999;  
+        box-shadow: var(--box-shadow);  
+        opacity: 1;
+        transition: all 0.3s ease;  
+        cursor: pointer;  
+    }
+
+    .days-together span {
+        display: block;
+        font-weight: bold;  
+        margin-bottom: 8px;  
+    }
+
+    .days-together p {
+        margin: 0;
+        font-weight: 500;
+    }
+</style>
+
+<div class="days-together" id="days-together">
+    <span id="counter-days">我们在一起 0 天</span>
+    <p id="counter-time">0 小时 0 分钟 0 秒</p>
+</div>
+
+<script>
+    
+    const startDate = new Date('2023-09-10T00:00:00');
+
+    
+    function updateDaysTogether() {
+        const now = new Date(); 
+        const diff = now - startDate; 
+
+        
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((diff / (1000 * 60)) % 60);
+        const seconds = Math.floor((diff / 1000) % 60);
+
+        
+        const daysCounter = document.getElementById('counter-days');
+        const timeCounter = document.getElementById('counter-time');
+
+        daysCounter.textContent = `我们在一起 ${days} 天`;
+        timeCounter.textContent = `${hours} 小时 ${minutes} 分钟 ${seconds} 秒`;
+    }
+
+    
+    setInterval(updateDaysTogether, 1000);
+</script>
+
+
+
+
             
         
             
@@ -316,6 +394,7 @@
             
         
     </aside>
+
 
 
             <main class="main full-width">
@@ -518,5 +597,9 @@
 	type="playlist"
 	id="3778678">
 </meting-js>
+
+
+
+
     </body>
 </html>
